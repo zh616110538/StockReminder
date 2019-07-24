@@ -1,0 +1,9 @@
+[Unit]
+Description=Run finance.py every day
+
+[Timer]
+OnCalendar=Mon,Tue,Wed,Thu,Fri *-*-* 09:30:00
+Unit=stock.service
+
+[Install]
+WantedBy=multi-user.target

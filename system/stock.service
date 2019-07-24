@@ -1,0 +1,9 @@
+[Unit]
+Description=Stock Reminder
+
+[Service]
+WorkingDirectory=/root/stock
+ExecStart=/root/anaconda3/bin/python -u /root/stock/StockReminder.py
+
+[Install]
+WantedBy=multi-user.target

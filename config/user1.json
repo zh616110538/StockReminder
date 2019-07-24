@@ -1,0 +1,17 @@
+{
+	"email": "example@email.com",
+	"settings": {
+		"price_up_to": [],
+		"price_down_to": [{
+			"stock": "603028",
+			"price": "9.4"
+		}],
+		"price_up_percent": [],
+		"price_down_percent": [],
+		"five_minutes_price_up_percent": [],
+		"five_minutes_price_down_percent": [{
+			"stock": "603028",
+			"price": "3"
+		}]
+	}
+}
